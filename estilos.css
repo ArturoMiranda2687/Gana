@@ -32,6 +32,7 @@ a{
     list-style: none;
     color: white;
     font-size: 2rem;
+    
 }
 .perfil{
     background: linear-gradient(0deg, rgba(208,139,0,1) 0%, rgba(239,139,0,1) 6%, rgba(0,0,0,1) 100%);
@@ -50,17 +51,24 @@ a{
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .enlace{
     font-size: 1.6rem;
     background-color: var(--naranjagana);
     width: 150px;
+    height: 30px;
     color: var(--negro);
     border-radius: 15px;
     text-transform: none;
     font-weight: bold;
     margin: 10px auto;
+    display: flex;
+}
+.enlace a{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
 }
 footer{
     background-color: var(--negro);
