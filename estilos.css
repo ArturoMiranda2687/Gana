@@ -46,13 +46,18 @@ a{
     font-size: 2rem;
     
 }
+.mapa{
+    position: relative;
+}
 .fondo{
+    width: auto;
+    height: 100vh;
+    position: absolute;
     background-image: url('https://img.freepik.com/vector-premium/textura-vertical-grunge-elementos-pernos-tuercas-engranajes-fondo-abstracto-efecto-papel-envejecido-elemento-diseno-ilustracion-vectorial_615712-31.jpg?w=2000');
-    background-repeat: repeat-y;
-    object-fit: cover;
+    background-repeat: repeat-y ;
+    object-fit: contain;
     z-index: -1;
     opacity: .4;
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -68,10 +73,10 @@ a{
     margin: 10px auto;
 }
 .lema{
-    margin-top: 10px;
+    line-height: 4rem;
+    font-weight: bold;
 }
 .botones{
-    
     display: flex;
     align-content: center;
     justify-content: center;
