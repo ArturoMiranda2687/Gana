@@ -46,6 +46,18 @@ a{
     font-size: 2rem;
     
 }
+.fondo{
+    background-image: url('https://img.freepik.com/vector-premium/textura-vertical-grunge-elementos-pernos-tuercas-engranajes-fondo-abstracto-efecto-papel-envejecido-elemento-diseno-ilustracion-vectorial_615712-31.jpg?w=2000');
+    background-repeat: repeat-y;
+    object-fit: cover;
+    z-index: -1;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .perfil{
     background: linear-gradient(0deg, rgba(208,139,0,1) 0%, rgba(239,139,0,1) 6%, rgba(0,0,0,1) 100%);
 }
@@ -59,6 +71,7 @@ a{
     margin-top: 10px;
 }
 .botones{
+    
     display: flex;
     align-content: center;
     justify-content: center;
