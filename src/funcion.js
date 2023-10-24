@@ -66,7 +66,7 @@ const instagram = new But({
 const whats = new But({
     logo: "./medios/whatsapp.png",
     nombre: "Whatsapp",
-    enlace: "https://w.app/GanaIndustrial",
+    enlace: "https://api.whatsapp.com/send?phone=525520861360",
 })
 const correo = new But({
     logo: "./medios/email.png",
