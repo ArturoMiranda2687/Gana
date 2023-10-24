@@ -1,7 +1,5 @@
 const perfil = document.querySelector('.perfil')
-//const presentacion= document.querySelector('.presentacion')
 const mapa = document.querySelector('.mapa')
-//const botones = document.querySelector('.botones')
 const pies = document.querySelector('footer')
 
 const fotoPerfil = document.createElement("img")
