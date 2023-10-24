@@ -1,6 +1,7 @@
 const perfil = document.querySelector('.perfil')
 const presentacion= document.querySelector('.presentacion')
 const botones = document.querySelector('.botones')
+const pies = document.querySelector('footer')
 
 perfil.innerHTML += `<img src="./medios/perfil.jpg" alt="ingeniero Marcos García">
                     <h3>Ing. Marcos García</h3>
@@ -57,3 +58,5 @@ botones.innerHTML += `<div class="paginaweb">
                             <a href="mailto:ganaindustrialpro@gmail.com">Envía un correo</a>
                         </div>
                         </div>`
+
+pies.innerHTML += `<p>Estamos para orientar, servirte y crecer juntos</p>`
